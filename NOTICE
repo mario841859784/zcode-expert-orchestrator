@@ -1,0 +1,14 @@
+zcode-expert-orchestrator
+Copyright (c) mario841859784 and contributors
+
+This plugin is a ZCode-native port of dsh-expert-orchestrator
+(https://github.com/mario841859784/dsh-expert-orchestrator, MIT). The 11
+bundled-core expert prompts (plugins/expert-orchestrator/skills/
+expert-orchestration/experts/, MIT, same as this repository) were authored
+for the dsh-expert-orchestrator project and are imported here at port time;
+updates flow one-way via scripts/sync-from-dsh.mjs.
+
+The Python tools under plugins/expert-orchestrator/skills/
+expert-orchestration/tools/ (taskboard.py, bus.py, _ed25519.py) are
+byte-identical copies of the upstream dsh-expert-orchestrator sources and
+carry the same MIT license.

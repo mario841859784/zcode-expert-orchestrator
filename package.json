@@ -1,0 +1,16 @@
+{
+  "name": "zcode-expert-orchestrator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ZCode plugin repo: expert orchestration ported from dsh-expert-orchestrator. The distributable plugin lives under plugins/expert-orchestrator/.",
+  "scripts": {
+    "test": "node --test \"test/*.mjs\"",
+    "gen": "node scripts/gen-zcode-agents.mjs",
+    "verify": "node scripts/verify-zcode-sync.mjs",
+    "sync-dsh": "node scripts/sync-from-dsh.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

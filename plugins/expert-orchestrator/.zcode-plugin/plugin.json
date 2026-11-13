@@ -1,0 +1,17 @@
+{
+  "name": "expert-orchestrator",
+  "version": "0.1.0",
+  "description": "Expert Orchestrator for ZCode: per-turn triage, PM-first planning, expert delegation via plugin subagents, dependency-DAG taskboard, message bus, and gated delivery with an experience pool. Ported from dsh-expert-orchestrator.",
+  "description_i18n": {
+    "en": "Multi-agent orchestration: per-turn triage, PM-first planning (draft → approve → spawn), delegation-only orchestrator dispatching 11 bundled expert subagents, dependency-DAG taskboard, message bus, gated delivery (independent reviewer ≠ implementer) and an experience pool.",
+    "zh-CN": "专家编排模式：每轮分诊、PM 先行规划（草案→批准→派发）、编排者不亲手实现——11 位内置专家以插件子代理派发，依赖 DAG 任务板、消息总线、分级交付门禁（独立评审≠实施者）与经验池沉淀。"
+  },
+  "author": {
+    "name": "mario841859784"
+  },
+  "license": "MIT",
+  "skills": "skills",
+  "agents": "agents",
+  "commands": "commands",
+  "hooks": "hooks/hooks.json"
+}

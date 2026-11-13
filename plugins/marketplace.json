@@ -1,0 +1,18 @@
+{
+  "name": "dev-zcode-expert-orchestrator-89943207",
+  "plugins": [
+    {
+      "name": "expert-orchestrator",
+      "source": "./expert-orchestrator",
+      "version": "0.1.0",
+      "description": "Expert Orchestrator for ZCode: per-turn triage, PM-first planning, expert delegation via plugin subagents, dependency-DAG taskboard, message bus, and gated delivery with an experience pool. Ported from dsh-expert-orchestrator.",
+      "displayName": "Expert Orchestrator",
+      "displayName_i18n": {
+        "zh-CN": "专家编排模式"
+      },
+      "description_i18n": {
+        "zh-CN": "专家编排：每轮分诊、PM 先行规划、11 位内置专家子代理派发、依赖 DAG 任务板、消息总线、分级交付门禁与经验池。自 dsh-expert-orchestrator 移植。"
+      }
+    }
+  ]
+}

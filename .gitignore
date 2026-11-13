@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+*.log
+
+# 编排运行态数据（本仓库若被用作试用工作区时产生）
+.expert-bus/
+.expert-taskboards/
+.expert-routing/
+.expert-lessons/
+.expert-lessons.md
+
+# Python 字节码
+__pycache__/
+*.pyc
